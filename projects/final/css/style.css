@@ -1,5 +1,5 @@
-head{
-font-family: 'Anton', sans-serif;
+.nutgraph {
+font-family: font-family: 'JetBrains Mono', monospace;
 background-color: #191414;	
 }
 
@@ -9,7 +9,7 @@ margin-right: 50px;
 padding: 0px;	
 background-color: #191414;
 color: white;
-font-family: 'Open Sans', sans-serif;
+font-family: 'Nunito', sans-serif;
 font-size: 18px;
 }
 
@@ -29,12 +29,21 @@ width: 100%;
 	width: 75%;
 }
 
+.caption {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
 .image {
 	display: block;
 	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: auto;
+}
+
+.responsive {
+	max-width: 100;
+	height: auto;
 }
 
 .genre {
@@ -69,10 +78,16 @@ width: 100%;
 	margin-bottom: 20px;
 }
 
+.byline {
+	font-family: 'JetBrains Mono', monospace;
+}
+
+.dateline {
+	font-family: 'JetBrains Mono', monospace;
+}
 
 .article{
-	max-width: 900px;
-	margin: 15px auto 15px auto;
+	max-width: 900px;	
 }
 
 .promo{
